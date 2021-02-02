@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/style.css">
+         <title>Personal Portfolio Webpage</title>
+</head>
+<body>
+         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+         <!-- My portfolio should have a navbar with an id of #navbar -->
+         <nav id="navbar">
+                  <a href="#welcome-section">Welcome</a>
+                  <a href="#projects">Projects</a>
+                  <a href="#contact">Contact Me</a>
+         </nav>
+         <!-- welcome section with an id of #welcome-section -->
+         <section id="welcome-section" class="jumptarget">
+                  <div class="wrapper">
+                           <h1>Welcome</h1>
+                           <h2>This is my Portfolio Page</h2>
+                           <p>Here you will find all of my front-end projects I've completed from FreeCodeCamp.org as well as a link to my github account at the end.</p>
+                  </div>
+         </section>
+         <!-- projects section with an id of #projects -->
+         <section id="projects" class="jumptarget">
+                  <div class="wrapper">
+                  <!-- project containers with a class of .project-tile -->
+                  <div class="project-tile">
+                           <a target="_blank" href="https://mickbeck.github.io/product_landing_page/">                           
+                                    <div class="img-container">
+                                             <img src="img/product_landing_page.png" alt="">
+                                    </div>
+                                    <h1>Product Landing Page</h1>
+                           </a>
+                  </div>
+                  <div class="project-tile">
+                           <a target="_blank" href="https://mickbeck.github.io/survey_form">                      
+                                    <div class="img-container">
+                                             <img src="img/survey_form.png" alt="">
+                                    </div>     
+                                    <h1>Survey Form</h1>
+                           </a>
+                  </div>
+                  <div class="project-tile">
+                           <a target="_blank" href="https://mickbeck.github.io/technical_documentation_page">         
+                                    <div class="img-container">
+                                             <img src="img/technical_documentation_page.png" alt="">
+                                    </div>                  
+                                    <h1>Technical Documentation Page</h1>
+                           </a>
+                  </div>
+                  <div class="project-tile">
+                           <a target="_blank" href="https://mickbeck.github.io/tribute_page">                  
+                                    <div class="img-container">
+                                             <img src="img/tribute_page.png" alt="">
+                                    </div>         
+                                    <h1>Tribute Page</h1>
+                           </a>
+                  </div>
+                  </div>
+
+         </section>
+         <!-- a non-required contact section which houses the #profile-link anchor -->
+         <!-- -which opens either my github or FCC profile in a new tab -->
+         <section id="contact" class="jumptarget">
+                  <h1>Need a Front-end Web Developer</h1>
+                  <ul>
+                           <li> 
+                                    <a target="_blank" id="profile-link" href="#">Github Profile</a>
+                           </li>
+                           <li> 
+                                    <a target="_blank" href="#">FreeCodeCamp Profile</a>
+                           </li>
+                  </ul>
+         </section>
+</body>
+</html>

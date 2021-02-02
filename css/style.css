@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  color: silver; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  /* height of sticky header */ }
+
+body {
+  background-color: #111111;
+  padding: 1rem;
+  padding-top: 0px;
+  margin: 0.3rem;
+  margin-top: 0px; }
+  body nav {
+    position: sticky;
+    top: 0rem;
+    background-color: #111111;
+    padding: 0rem 0.3rem;
+    padding-top: 3rem;
+    margin: 0rem 0.3rem;
+    display: flex;
+    justify-content: flex-end; }
+    body nav a {
+      background-color: #111111;
+      border: solid #3d3d3d 1px;
+      border-bottom: 0px;
+      padding: 1rem;
+      padding-bottom: 0.6rem;
+      margin: 0.3rem;
+      margin-bottom: 0px;
+      text-decoration: none; }
+  body section {
+    margin-top: 0px; }
+  body #welcome-section {
+    padding: 1rem;
+    margin: 0.3rem;
+    margin-top: 0px;
+    background-color: #272727;
+    height: 100vh; }
+    body #welcome-section .wrapper {
+      background-color: #111111;
+      height: 100%; }
+      body #welcome-section .wrapper h1, body #welcome-section .wrapper h2, body #welcome-section .wrapper p {
+        padding: 6rem;
+        margin: 0;
+        text-align: center; }
+  body #projects {
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.3rem; }
+    body #projects .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 500px);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 1em;
+      height: 100%;
+      padding: 1rem;
+      margin: 0.3rem; }
+      body #projects .wrapper .project-tile {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        margin: 0.3rem;
+        background-color: #111111;
+        display: flex;
+        padding-bottom: 0px;
+        border: solid 1px black; }
+        body #projects .wrapper .project-tile a {
+          flex: 1;
+          display: block;
+          overflow: hidden;
+          text-decoration: none; }
+          body #projects .wrapper .project-tile a .img-container {
+            flex: 1;
+            width: 500px;
+            height: 250px;
+            overflow: hidden; }
+            body #projects .wrapper .project-tile a .img-container img {
+              width: 100%;
+              object-fit: scale-down; }
+          body #projects .wrapper .project-tile a h1 {
+            width: 100%; }
+  body #contact {
+    padding: 1rem;
+    margin: 0.3rem;
+    background-color: #272727;
+    height: 100vh; }
+    body #contact ul {
+      padding: 1rem;
+      margin: 0.3rem;
+      display: flex;
+      justify-content: center;
+      background-color: #111111; }
+      body #contact ul li {
+        list-style-position: inside;
+        list-style-type: none;
+        background-color: #111111;
+        border: solid #3d3d3d 1px; }
+        body #contact ul li a {
+          background-color: #111111;
+          padding: 1rem;
+          margin: 0.3rem;
+          display: inline-block;
+          text-decoration: none; }
